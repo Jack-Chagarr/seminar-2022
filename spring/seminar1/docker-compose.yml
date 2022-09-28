@@ -1,15 +1,15 @@
 version: '3.8'
 services:
   db:
-    image: mysql:latest
-    restart: always
+    image: mysql:latest #mysql 데이터베이스 역할을 할 수 있는 친구
+    restart: always # 죽으면 다시시작해야 하는데 이 때의 정책
     environment:
-      - MYSQL_DATABASE=seminar
-      - MYSQL_ROOT_PASSWORD=seminar
+      - MYSQL_DATABASE=seminar #database 이름
+      - MYSQL_ROOT_PASSWORD=seminar #비밀번호
     ports:
-      - '3306:3306'
+      - '3306:3306' #머신의 3306포트와 격리해서 띨 어떤 프로그램의 포트 콜론으로 이어줌
     volumes:
-      - db:/var/lib/mysql
+      - db:/var/lib/mysql #장소 고정
 volumes:
   db:
     driver: local
