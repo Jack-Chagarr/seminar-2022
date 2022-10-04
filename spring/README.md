@@ -32,15 +32,15 @@
     <td><a href="./seminar1/material.pdf">링크</a></td>
     <td><a href="https://github.com/wafflestudio/seminar-2022-springboot-assignment/blob/main/seminar1/README.md">링크</a></td>
     <td></td>
-    <td></td>
+    <td><a href="https://youtu.be/6B1MYt7XYvY">링크</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Spring Boot MVC 아키텍처 이해하기</td>
     <td>10월 4일 (화) 오후 7시 30분</td>
     <td>강남</td>
-    <td></td>
-    <td></td>
+    <td><a href="./seminar2/material.pdf">링크</a></td>
+    <td><a href="https://github.com/wafflestudio/seminar-2022-springboot-assignment/blob/main/seminar2/README.md">링크</a></td>
     <td></td>
     <td></td>
   </tr>
